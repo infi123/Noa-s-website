@@ -10,7 +10,7 @@ function calculateElapsedDays(startDate) {
 const value = () =>{
   console.log("check")
 }
-
+//try
 
 // Function to update the counter element with animation
 function updateCounter() {
