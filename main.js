@@ -6,6 +6,12 @@ function calculateElapsedDays(startDate) {
   return elapsedDays;
 }
 
+
+const value = () =>{
+  console.log("check")
+}
+
+
 // Function to update the counter element with animation
 function updateCounter() {
   const counterTextElement = document.getElementById('counter-text');
