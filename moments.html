@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noa App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- Make sure to include your JavaScript file -->
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li> <a href="/index.html">Home</a></li>
+        <li> <a href="/calendar.html">Calendar</a></li>
+        <li> <a href="/moments.html">Moments  </a></li>
+        <!--<li><button>Sign in</button></li>
+        <li><button>Sign out</button></li>-->
+      </ul>
+    </nav>
+    
+    <main>
+      <center><h1>Moments</h1></center>
+      <form id="memory-form">
+        <input type="file" id="image-input" accept="image/*">
+        <textarea id="note-input" placeholder="Add a note..."></textarea>
+        <button type="submit">Add Memory</button>
+      </form>
+      <div id="memories-container"></div>
+    </main>
+  </body>
+</html>

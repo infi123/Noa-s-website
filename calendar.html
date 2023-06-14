@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noa App</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/calendar.html">Calendar</a></li>
+        <li><a href="/moments.html">Moments</a></li>
+        <!--<li><button>Sign in</button></li>-->
+        <!--<li><button>Sign out</button></li>-->
+      </ul>
+    </nav>
+
+
+    <div class="calendar">
+      <div class="calendar-header">
+        <button id="prevMonthBtn">&lt;</button>
+        <h2 id="currentMonth">May 2023</h2>
+        <button id="nextMonthBtn">&gt;</button>
+      </div>
+      <div class="calendar-body">
+        <div class="calendar-slots">
+          <!-- Slots will be dynamically generated using JavaScript -->
+        </div>
+      </div>  
+      <div class="notes-input">
+        <input type="text" id="notesInput" placeholder="Enter note" />
+        <button id="addNoteBtn">Add Note</button>
+      </div>
+    </div>
+
+    <script src="main.js">
+      
+    </script>
+  </body>
+</html>

@@ -1,0 +1,207 @@
+html{
+  font-size: 63.75;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Inter', sans-serif;
+  background-color: #d3cfcf; /* Replace with your desired background color */
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px; /* Adjust the size of the pattern */
+
+}
+
+
+nav ul{
+  display: flex;
+  align-content: space-between;
+  gap:3rem;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color:black;
+  font-size: 2rem;
+  transition: 0.4s;
+}
+
+nav ul li a:hover {
+  font-size: 2.2rem;
+  text-decoration: underline;
+}
+
+nav ul li button {
+  text-decoration: none;
+  color:black;
+  font-size: 2rem;
+  border-radius: 40px;
+  padding: 15px;
+  background-color: aliceblue;
+  transition: 0.5s;
+  
+}
+
+
+nav ul li button:hover {
+  color: aliceblue;
+  background-color: rgb(17, 17, 18);
+}
+
+
+main{
+  font-family: Arial, sans-serif;
+  font-size: 2.2rem;
+  position: absolute;
+  top: 30%; /* Adjust the vertical position as desired */
+  left: 50%; /* Adjust the horizontal position as desired */
+  transform: translate(-50%, -50%);
+}
+
+.head-line{
+  font-family: Arial, sans-serif;
+  font-size: 2.2rem;
+  position: absolute;
+  top: 10%; /* Adjust the vertical position as desired */
+  left: 50%; /* Adjust the horizontal position as desired */
+
+}
+
+.highlighted-line {
+  color: rgb(213, 111, 220);
+  font-weight: bold;
+  
+}
+
+
+#counter {
+  font-family: Arial, sans-serif; /* Change the font-family as desired */
+  font-size: 2.2rem; /* Change the font size as desired */
+  position: absolute;
+  top: 60%; /* Adjust the vertical position as desired */
+  left: 50%; /* Adjust the horizontal position as desired */
+  transform: translate(-50%, -50%);
+}
+
+
+
+#counter-text {
+  font-family: Arial, sans-serif;
+  font-size: 2.2rem;
+  animation: countUp 1s ease-in-out; /* Modify the animation duration and easing as desired */
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.photo-container img {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+}
+
+
+.calendar {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.calendar-body {
+  padding: 10px;
+}
+
+.calendar-slots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.calendar-slot {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.calendar-slot:hover {
+  background-color: #f2f2f2;
+}
+
+.slot-number {
+  font-weight: bold;
+}
+
+.notes {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.notes-input {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.notes-input input {
+  flex: 1;
+  padding: 5px;
+}
+
+.notes-input button {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+
+
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#memory-form {
+  margin-bottom: 20px;
+}
+
+#image-input,
+#note-input {
+  display: block;
+  margin-bottom: 10px;
+}
