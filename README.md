@@ -1,6 +1,6 @@
 # Noa App
 
-Noa App is a personal project dedicated to capturing special moments and memories. This web app includes features such as a calendar and moments gallery, lovingly crafted for the users.
+Noa App is a personal project dedicated to capturing special moments and memories. This web app includes features such as a calendar and moments gallery, lovingly crafted for the users. (I changed the photos of Noa and I to some other great photos of something beautiful).
 
 ## Table of Contents
 
